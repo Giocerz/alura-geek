@@ -1,0 +1,186 @@
+* {
+    box-sizing: border-box;
+    font-family: 'IBM Plex Mono', sans-serif;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px 0px 50px 0px;
+    gap: 30px;
+}
+
+.products {
+    width: 100%;
+    max-width: 758px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 10px 0px 10px;
+}
+
+.products > h2 {
+    max-width: 350px;
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+}
+
+#products-root {
+    width: 100%;
+    max-width: 678px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.form-section {
+    width: 100%;
+    max-width: 472px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 10px 0px 10px;
+}
+
+.form-section > h2 {
+    max-width: 350px;
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+}
+
+form > input {
+    width: 100%;
+    height: 58px;
+    padding-left: 10px;
+    border: 3px solid #03318C;
+    border-radius: 100px;
+    font-weight: 600;
+    color: #03318C;
+}
+
+form > input::placeholder {
+    font-weight: 600;
+    color: #03318C;
+}
+
+.form-btns {
+    width: 100%;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-btns > button {
+    background-color: transparent;
+    border: 3px solid #03318C;
+}
+
+.form-btns > input {
+    background-color: #03318C;
+    color: white;
+}
+
+.form-btns > input, .form-btns > button {
+    cursor: pointer;
+    border-radius: 20px;
+    width: 47%;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 500;
+}
+
+header {
+    width: 100%;
+    height: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px, 0px, 20px, 0px;
+    box-shadow: 0px 7px 1px #00000040;
+}
+
+header,
+footer {
+    background-color: #5300C8;
+}
+
+.logo {
+    display: flex;
+    width: 374px;
+    height: 56px;
+}
+
+.logo > img {
+    width: 138px;
+    height: 56px;
+}
+
+.logo > h1 {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Press Start 2P', sans-serif;
+    color: white;
+    width: 236px;
+    height: 51px;
+    font-size: 24px;
+}
+
+footer {
+    height: 232px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+}
+
+.credits {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.credits > p {
+    color: white;
+    margin: 0;
+}
+
+.alura-credit {
+    opacity: 0.5;
+}
+
+@media (max-width: 700px) {
+    .form-section {
+        order: 1;
+    }
+
+    .products {
+        order: 2;
+    }
+}

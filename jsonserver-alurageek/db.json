@@ -1,0 +1,22 @@
+{
+  "products": [
+    {
+      "id": "3",
+      "name": "Baby Yoda 3",
+      "image": "https://exitocol.vtexassets.com/arquivos/ids/20789059/Sw-Baby-Yoda-Peluche-1758422_e.jpg?v=638398250793130000",
+      "price": 299
+    },
+    {
+      "id": "e3e3",
+      "name": "Barbie",
+      "price": "234",
+      "image": "https://www.pulguerokachivaches.com/image/cache/catalog/fotolibro/barbie_the_movie_pink_cowboy_hpk00-1-1500x1500.webp"
+    },
+    {
+      "id": "163f",
+      "name": "Stormtropper",
+      "price": "2345",
+      "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTXrFNbrr6047ldLbc9cNH1UYjlmUgQLhIzVZZTddr7Vh_RGxiqKAJCQNmSoMV1Q9Kc6LtP9BjfPrI_IefNJ2RVXjlzUbxWAWpUK1kvJ-WP&usqp=CAE"
+    }
+  ]
+}
